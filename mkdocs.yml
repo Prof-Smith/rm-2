@@ -1,7 +1,6 @@
 site_name: Applied Risk Management Lab
-site_description: Eight-module applied financial risk course
+site_description: Decision-first financial risk course
 site_author: Zachary Smith
-repo_name: Applied Risk Management Lab
 theme:
   name: material
   logo: assets/risk-mark.svg
@@ -17,41 +16,54 @@ theme:
       accent: custom
       toggle: {icon: material/weather-sunny, name: Light mode}
   font: {text: Inter, code: JetBrains Mono}
-plugins:
-  - search
+plugins: [search]
 markdown_extensions: [admonition, attr_list, md_in_html, tables, footnotes, pymdownx.details, pymdownx.superfences]
 extra_css: [styles.css]
 copyright: Applied Risk Management Lab · Zachary Smith
 nav:
   - Home: index.md
-  - Start Here:
+  - Course Architecture:
       - Course Map: course-map.md
       - Learning Model: learning-model.md
       - Assessment: assessment.md
-  - Module 1 · Risk, Uncertainty, and Judgment: modules/module-1.md
-  - Module 2 · Market Risk and Tail Loss: modules/module-2.md
-  - Module 3 · Model Risk and Leverage: modules/module-3.md
-  - Module 4 · Liquidity and Funding: modules/module-4.md
-  - Module 5 · Credit and Counterparty Risk: modules/module-5.md
-  - Module 6 · Systemic Risk and Contagion: modules/module-6.md
-  - Module 7 · Governance and Regulation: modules/module-7.md
-  - Module 8 · Enterprise Risk and the CRO Challenge: modules/module-8.md
-  - Case Library:
-      - Knight Capital: cases/knight.md
-      - London Whale: cases/whale.md
-      - LTCM: cases/ltcm.md
-      - Lehman Brothers: cases/lehman.md
-      - Credit Portfolio: cases/credit.md
-      - Global Financial Crisis: cases/gfc.md
-      - Atlas Bank International: cases/atlas.md
-      - Sunrise National Bank: cases/cro.md
-  - Quantitative Labs:
-      - Module 1 Lab: labs/module-1.md
-      - Module 2 Lab: labs/module-2.md
-      - Module 3 Lab: labs/module-3.md
-      - Module 4 Lab: labs/module-4.md
-      - Module 5 Lab: labs/module-5.md
-      - Module 6 Lab: labs/module-6.md
-      - Module 7 Lab: labs/module-7.md
-      - Module 8 Lab: labs/module-8.md
+  - Module 1 · Model Risk and Regime Change:
+      - Module Overview: modules/module-1.md
+      - Clean Case: cases/ltcm.md
+      - Scaffolded Lab: labs/module-1.md
+      - Submission Studio: submissions/module-1.md
+  - Module 2 · Liquidity, Funding, and Confidence:
+      - Module Overview: modules/module-2.md
+      - Clean Case: cases/lehman.md
+      - Scaffolded Lab: labs/module-2.md
+      - Submission Studio: submissions/module-2.md
+  - Module 3 · Market Risk and Tail Loss:
+      - Module Overview: modules/module-3.md
+      - Clean Case: cases/whale.md
+      - Scaffolded Lab: labs/module-3.md
+      - Submission Studio: submissions/module-3.md
+  - Module 4 · Credit and Counterparty Risk:
+      - Module Overview: modules/module-4.md
+      - Clean Case: cases/gfc-credit.md
+      - Scaffolded Lab: labs/module-4.md
+      - Submission Studio: submissions/module-4.md
+  - Module 5 · Systemic Risk and Contagion:
+      - Module Overview: modules/module-5.md
+      - Clean Case: cases/gfc-systemic.md
+      - Scaffolded Lab: labs/module-5.md
+      - Submission Studio: submissions/module-5.md
+  - Module 6 · Operational Risk and Model Governance:
+      - Module Overview: modules/module-6.md
+      - Clean Case: cases/knight.md
+      - Scaffolded Lab: labs/module-6.md
+      - Submission Studio: submissions/module-6.md
+  - Module 7 · Stress Testing and Regulation:
+      - Module Overview: modules/module-7.md
+      - Clean Case: cases/stress-regulation.md
+      - Scaffolded Lab: labs/module-7.md
+      - Submission Studio: submissions/module-7.md
+  - Module 8 · Enterprise Risk Management:
+      - Module Overview: modules/module-8.md
+      - Clean Case: cases/erm.md
+      - Scaffolded Lab: labs/module-8.md
+      - Submission Studio: submissions/module-8.md
   - Instructor Guide: instructor-guide.md

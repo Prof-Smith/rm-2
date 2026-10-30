@@ -1,29 +1,21 @@
-# Applied Risk Management Lab
+# Applied Risk Management Lab v2
 
-A complete eight-module MkDocs course repository built around decision-first, case-based, quantitative risk education.
+A complete eight-module MkDocs course built around a consistent three-part architecture:
 
-## Local preview
+1. Clean professional case
+2. Scaffolded quantitative lab
+3. Submission studio
+
+## Deploy
+
+The repository includes `.github/workflows/pages.yml`. Push the extracted repository contents with Git, enable GitHub Pages with **GitHub Actions** as the source, and the workflow will build the site with `mkdocs build --strict`.
+
+## Validate locally
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+mkdocs build --strict
 mkdocs serve
 ```
-
-## Publish
-Push to a GitHub repository with `main` as the default branch, then enable GitHub Pages with **GitHub Actions** as the source. The included workflow builds in strict mode and deploys the generated site.
-
-## Repository principles
-- One essential question per module
-- Frame → Learn → Investigate → Model → Decide
-- One principal decision artifact per module
-- Common claim/evidence/uncertainty/action/reversal standard
-- Synthetic numerical data are clearly labeled
-
-## Structure
-- `docs/modules`: student pathways
-- `docs/cases`: compact investigations
-- `docs/labs`: executable notebooks
-- `docs/assets`: design assets
-- `data`: data documentation
-- `.github/workflows`: Pages deployment
