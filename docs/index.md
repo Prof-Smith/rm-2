@@ -1,0 +1,12 @@
+---
+hide: [toc]
+---
+<div class="hero"><span class="eyebrow">APPLIED FINANCE · DECISION-FIRST LEARNING</span><h1>Think like a risk manager.<br><em>Decide like a CRO.</em></h1><p>An eight-module experience in financial failure analysis, quantitative modeling, stress testing, and enterprise decision-making.</p><div class="actions"><a class="button primary" href="course-map/">Explore the course</a><a class="button ghost" href="modules/module-1/">Begin Module 1</a></div></div>
+<div class="metrics"><div><b>8</b><span>connected modules</span></div><div><b>8</b><span>decision artifacts</span></div><div><b>1</b><span>CRO capstone</span></div><div><b>5-step</b><span>learning rhythm</span></div></div>
+
+## One professional progression
+<div class="pathway"><a href="modules/module-1/"><i>01</i><h3>Risk, Uncertainty, and Judgment</h3><p>What can a model know, and what must a risk manager still judge?</p></a><a href="modules/module-2/"><i>02</i><h3>Market Risk and Tail Loss</h3><p>When does a familiar metric create false confidence?</p></a><a href="modules/module-3/"><i>03</i><h3>Model Risk and Leverage</h3><p>What happens when a coherent model meets a changed regime?</p></a><a href="modules/module-4/"><i>04</i><h3>Liquidity and Funding</h3><p>Can the institution survive long enough for solvency to matter?</p></a><a href="modules/module-5/"><i>05</i><h3>Credit and Counterparty Risk</h3><p>How does deterioration migrate across exposures?</p></a><a href="modules/module-6/"><i>06</i><h3>Systemic Risk and Contagion</h3><p>How does a local shock become a system event?</p></a><a href="modules/module-7/"><i>07</i><h3>Governance and Regulation</h3><p>Which controls change behavior before loss becomes irreversible?</p></a><a href="modules/module-8/"><i>08</i><h3>Enterprise Risk and the CRO Challenge</h3><p>Which risks matter most when they interact?</p></a></div>
+
+## The professional loop
+<div class="steps"><div><b>Frame</b><p>Enter through a consequential decision.</p></div><div><b>Learn</b><p>Acquire the minimum viable theory.</p></div><div><b>Investigate</b><p>Diagnose a failure mechanism.</p></div><div><b>Model</b><p>Calculate and stress.</p></div><div><b>Decide</b><p>Recommend and define reversal.</p></div></div>
+<div class="cta"><div><span class="eyebrow">FINAL DESTINATION</span><h2>The CRO Challenge</h2><p>Integrate market, credit, liquidity, operational, and systemic risk into a board-ready assessment.</p></div><a class="button primary" href="modules/module-8/">Enter the capstone</a></div>
